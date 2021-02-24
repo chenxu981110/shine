@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/shine.css">
+</head>
+
+<body>
+    <div id="content">
+        <div id="title">
+            <img src="image/SHINE 图片/SHINE.png">
+            <h1>天燕纳米材料从头计算软件</h1>
+        </div>
+        <h2>软件介绍：</h2>
+        <div class="module">
+            <p>SHINE是基于密度泛函理论和非平衡格林函数方法的量子力学程序，采用实空间投影缀加平面波方法描述离子原子核和价电子的原子轨道基。对于栅压的输运体系，在实空间求解恰当边界条件的Poisson方程。通过围道积分格林函数和k点实空间上的并行化，使得代码具有非常准确的计算以及很高的计算效率。适合解决纳米材料的各类性质。
+            </p>
+        </div>
+        <h2>计算对象：</h2>
+        <div class="module">
+            <p>SHINE能够计算包含周期性和开放边条件的气相分子、分子结、团簇、纳米、晶体等材料结构。
+            </p>
+            <img src="image/SHINE 图片/SHINE计算对象.png" style="width: 80%;">
+        </div>
+        <h2>计算功能：</h2>
+        <div class="module">
+            <img src="image/SHINE 图片/SHINE 计算系统.png" style="width: 80%;">
+        </div>
+        <h2>计算流程：</h2>
+        <div class="module">
+            <p>根据研究的纳米材料体系，准备相应的初始输入参数文档。然后在计算资源上准备计算脚本文件，提交到计算资源进行计算。计算过程中可以实时监控计算过程做相应的处理。计算完成后得到计算结果，并作图。其运行流程如下图所示：
+            </p>
+            <img src="image/SHINE 图片/图片1.png" style="width: 40%;">
+        </div>
+
+        <h2>应用案例：</h2>
+        <div class="module">
+            <p>量子电容器：</p>
+            <img src="image/SHINE 图片/钠bcc结构的电容器模型.png" style="width: 50%;">
+            <span>描述：钠BCC结构在5V偏压下的电子态密度和电压降分布</span>
+            <p>非平衡态原子力：</p>
+            <img src="image/SHINE 图片/Au-N2-Au分子结.png" style="width: 50%;">
+            <span>描述：Au/N2/Au结构，偏压下的投影态密度和偏压下的原子力</span>
+            <p>静电门压控制系统：</p>
+            <img src="image/SHINE 图片/Au-anthraquinone-Au.png" style="width: 50%;">
+            <span>描述：Au/Anthraquinone/Au结构，门压对电势的影响和栅压下的透射系数</span>
+            <p>自旋输运体系：</p>
+            <img src="image/SHINE 图片/ZGNR自旋输运体系.png" style="width: 46%;">
+            <span>描述：ZGNR输运体系，0、2.4V偏压下的自旋投影态密度</span>
+            <p>多端输运体系：</p>
+            <img src="image/SHINE 图片/C60-六端输运体系.png" style="width: 65%;">
+            <span>描述：C60-六端输运体系，费米能级上的实空间态密度和平均有效势分布</span>
+        </div>
+
+        <h2>参考文献：</h2>
+        <div class="module">
+            <p>
+                1 R. H. M. Smit, Y. Noat, C. Untiedt, N. D. Lang, M. C. van Hemert, and J. M. van Ruitenbeek, Nature
+                (London) 419, 906
+                (2002).<br>
+                2 D. Djukic, K. S. Thygesen, C. Untiedt, R. H. M. Smit, K. W. Jacobsen, and J. M. van Ruitenbeek, Phys.
+                Rev. B 71,
+                161402 (2005).<br>
+                3 L. Venkataraman, J. E. Klare, I. W. Tam, C. Nuckolls, M. S. Hybertsen, and M. L. Steigerwald, Nano
+                Lett. 6, 458
+                (2006).<br>
+                4 S. Y. Quek, L. Venkataraman, H. J. Choi, S. G. Louie, M. S.Hybertsen, and J. B. Neaton, Nano Lett. 7,
+                3477 (2007).<br>
+                5 C. Li, I. Pobelov, T. Wandlowski, A. Bagrets, A. Arnold, and F. Evers, J. Am. Chem. Soc. 130, 318
+                (2007).<br>
+                6 F. Munoz-Rojas, J. Fern ˜ andez-Rossier, and J. J. Palacios, ´ Phys. Rev. Lett. 102, 136810
+                (2009).<br>
+                7 H. S¸ ahin and R. T. Senger, Phys. Rev. B 78, 205423 (2008).<br>
+                8 F. D. Novaes, R. Rurali, and P. Ordejon, ´ ACS Nano 4, 7596 (2010).<br>
+                9 T. Markussen, R. Rurali, X. Cartoixa, A.-P. Jauho, and 'M. Brandbyge, Phys. Rev. B 81, 125307
+                (2010).<br>
+                10 Y. Lee, K. Kakushima, K. Shiraishi, K. Natori, and H. Iwai, J. Appl. Phys. 107, 113705 (2010).<br>
+                11 T. Ono and K. Hirose, Phys. Rev. Lett. 94, 206806 (2005).<br>
+                12 I. Rungger, O. Mryasov, and S. Sanvito, Phys. Rev. B 79, 094414 (2009).<br>
+                13 J. Chen, J. S. Hummelshøj, K. S. Thygesen, J. S. Myrdal, J. K. Nørskov, and T. Vegge, Catal. Today
+                165, 2 (2011).<br>
+                14 M. Dell’Angela, G. Kladnik, A. Cossaro, A. Verdini, M. Kamenetska, I. Tamblyn, S. Y. Quek, J. B.
+                Neaton, D. Cvetko,
+                and A. Morgante et al., Nano Lett. 10, 2470 (2010).<br>
+                15 J. M. Garcia-Lastra, C. Rostgaard, A. Rubio, and K. S. Thygesen, Phys. Rev. B 80, 245427 (2009).<br>
+                16 C. Toher and S. Sanvito, Phys. Rev. Lett. 99, 056801 (2007).<br>
+                17 M. Strange, C. Rostgaard, H. Hakkinen, and K. S. Thygesen, ¨ Phys. Rev. B 83, 115108 (2011).<br>
+                18 M. Strange and K. S. Thygesen, Beilstein J. Nanotechnol. 2, 746 (2011).<br>
+                19 T. Rangel, A. Ferretti, P. E. Trevisanutto, V. Olevano, and G.-M. Rignanese, Phys. Rev. B 84, 045426
+                (2011).<br>
+                20 M. S. Hybertsen, L. Venkataraman, J. E. Klare, A. C. Whalley, M. L. Steigerwald, and C. Nuckolls, J.
+                Phys.: Condens.
+                Matter 20, 374115 (2008).<br>
+                21 G. Stefanucci and C. O. Almbladh, Europhys. Lett. 67, 14 (2004).<br>
+                22 C. Y. Yam, X. Zheng, G. H. Chen, Y. Wang, T. Frauenheim, and T. A. Niehaus, Phys. Rev. B 83, 245448
+                (2011).<br>
+                23 D. Dundas, E. J. McEniry, and T. N. Todorov, Nat. Nanotechnol. 4, 99 (2009).<br>
+                24 J.-T. Lu, M. Brandbyge, and P. Hedeg ¨ ard, ˚ Nano Lett. 10, 1657 (2010).<br>
+                25 J. Enkovaara, C. Rostgaard, J. J. Mortensen, J. Chen, M. Dułak, L. Ferrighi, J. Gavnholt, C.
+                Glinsvad, V. Haikola, H.
+                A. Hansen et al., J. Phys.: Condens. Matter 22, 253202 (2010).<br>
+                26 A. H. Larsen, M. Vanin, J. J. Mortensen, K. S. Thygesen, and K. W. Jacobsen, Phys. Rev. B 80, 195112
+                (2009).<br>
+                27E. Louis, J. A. Verges, J. J. Palacios, A. J. P ´ erez-Jim ´ enez, and ´ E. SanFabian, ´ Phys. Rev. B
+                67, 155321
+                (2003).<br>
+                28 J. Taylor, H. Guo, and J. Wang, Phys. Rev. B 63, 245407 (2001).<br>
+                29 M. Brandbyge, J.-L. Mozos, P. Ordejon, J. Taylor, and K. Stokbro, ´ Phys. Rev. B 65, 165401
+                (2002).<br>
+                30 Y. Xue, S. Datta, and M. A. Ratner, Chem. Phys. 281, 151 (2002).<br>
+                31 F. Guinea, C. Tejedor, F. Flores, and E. Louis, Phys. Rev. B 28, 4397 (1983).<br>
+                32 See, for example, H. Haug, and A.-P. Jauho, Quantum Kinetics in Transport and Optics of
+                Semiconductors (Springer, New
+                York, 1998).<br>
+                33 A. Kiejna, G. Kresse, J. Rogal, A. De Sarkar, K. Reuter, and M. Scheffler, Phys. Rev. B 73, 035404
+                (2006).<br>
+                34 Y. Meir and N. S. Wingreen, Phys. Rev. Lett. 68, 2512 (1992).<br>
+                35 K. S. Thygesen, Phys. Rev. B 73, 035309 (2006).<br>
+                36 J. Taylor, H. Guo, and J. Wang, Phys. Rev. B 63, 245407 (2001).<br>
+                37 R. Li, Ph.D. thesis, School of Electronics and Computer Science, Peking University, 2008.<br>
+                38 T. N. L. Patterson, Math. Comput. 22, 847 (1968).<br>
+                39 Q. Zekan, H. Shimin, L. Rui, S. Ziyong, Z. Xingyu, and X. Zengquan, J. Comput. Theor. Nanosci. 5, 671
+                (2008).<br>
+                40 T. Ozaki, K. Nishio, and H. Kino, Phys. Rev. B 81, 035116 (2010).<br>
+                41 M. Di Ventra, Y.-C. Chen, and T. N. Todorov, Phys. Rev. Lett. 92, 176803 (2004).<br>
+                42 J. B. Oostinga, H. B. Heersche, X. Liu, A. F.Morpurgo, and L. M. K. Vandersypen, Nat. Mater.7, 151
+                (2008).<br>
+                43 M. F.Craciun, S. Russo, M. Yamamoto, J. B. Oostinga, A. F. Morpurgo, and S. Tarucha, Nat.
+                Nanotechnol. 4, 383 (2009).<br>
+                44 S. Kubatkin, A. Danilov, M. Hjort, J. Cornil, J.-L. Bredas, N. StuhrHansen, P. Hedegard, and T.
+                Bjornholm, Nature
+                (London) 425, 698 (2003).<br>
+                45 S. Hyunwook, K. Youngsang, J. Y. Hee, J. Heejun, M. A. Reed, and L. Takhee, Nature (London) 462, 1039
+                (2009).<br>
+                46 S. S. Datta, D. R. Strachan, and A. T. C. Johnson, Phys. Rev. B 79, 205404 (2009).<br>
+                47 M. Strange, O. Lopez-Acevedo, and H. Hakkinen, J. Phys. Chem. Lett. 1, 1528 (2010).<br>
+                48 P. D. Jadzinsky, G. Calero, C. J. Ackerson, D. A. Bushnell, and R. D. Kornberg, Science 318, 430
+                (2007).<br>
+                49 Y. Wang, Q. Chi, N. S. Hush, J. R. Reimers, J. Zhang, and J. Ulstrup, J. Phys. Chem. C 113, 19601
+                (2009).<br>
+                50 T. Markussen, J. Schiotz, and K. S. Thygesen, J. Chem. Phys. 132, 224104 (2010).<br>
+                51 T. Markussen, R. Stadler, and K. S. Thygesen, Nano Lett. 10, 4260 (2010).<br>
+                52 D. A. Areshkin and B. K. Nikolic, Phys. Rev. B 79, 205430 (2009).<br>
+                53 M. Fujita, K. Wakabayashi, K. Nakada, and K. Kusakabe, J. Phys. Soc. Jpn. 65, 1920 (1996).<br>
+                54 J. Zhang, S. Hou, R. Li, Z. Qian, R. Han, Z. Shen, X. Zhao, and Z. Xue, Nanotechnology 16, 3057
+                (2005).
+            </p>
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
